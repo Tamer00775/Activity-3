@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: Activity-3
+  db:
+    username: admin
+    password: 123456
+    url: jdbc:postgresql://localhost:5432/postgres?serverTimezone=UTC+5
+    database: postgres
+    hostname: localhost
+    driver-classname: org.postgresql.Driver
